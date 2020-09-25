@@ -9,7 +9,7 @@ metadata:
   generation: 1
   creationTimestamp: '2020-09-11T00:20:21Z'
   labels:
-    app.kubernetes.io/instance: my-cluster
+    app.kubernetes.io/instance: strimzi-kafka
     app.kubernetes.io/managed-by: strimzi-cluster-operator
     app.kubernetes.io/name: entity-operator
     app.kubernetes.io/part-of: strimzi-my-cluster
