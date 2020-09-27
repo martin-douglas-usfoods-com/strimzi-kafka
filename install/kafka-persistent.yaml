@@ -9,7 +9,8 @@ spec:
     listeners:
       plain: {}
       tls: {}
-      external: nodeport
+      external:
+        type: nodeport
     config:
       offsets.topic.replication.factor: 3
       transaction.state.log.replication.factor: 3
